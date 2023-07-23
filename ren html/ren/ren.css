@@ -1,0 +1,85 @@
+/*{
+    box-sizing:border-box;
+
+}
+.img-container{
+   
+    width: 25%;
+    padding: 15px ;
+    float: left;
+    border: 3px solid green; 
+    margin-right:10px ;   
+    margin-left: 10px;
+}
+.img-container1{
+    width: 25%;
+    padding: 15px ;
+    float: left;
+    border: 3px solid green; 
+    margin-right:10px ;   
+    
+}
+.center{
+    margin: auto    ;
+    width: 50%;
+
+}
+div{
+    width: 50px;
+    padding: 15px;
+    border:2px solid black  ;
+}
+.clearfix{
+    overflow: auto;
+}
+
+img{
+    width: 370px ;height: 470px;
+}
+.center-vertical{
+    line-height: 100px;
+    height: auto;
+    border: 3px solid green;
+    text-align: center;
+    padding: 10px;
+
+    background-image:url("https://wallpapercg.com/media/ts_orig/12093.webp");
+}
+*/
+*{
+    margin: 0;
+    padding:0 ;
+}
+.mainContainer{
+    width: 50%;
+    margin: auto;
+    background-color:lightgoldenrodyellow ;
+    height: auto;
+    padding-bottom: 30px;
+
+}
+.imgContainer{
+    width: auto;
+    height: auto;
+    background-image: url('https://shorturl.at/fwORW');
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+   
+}
+.heading{
+    padding-top: 100px;
+    padding-bottom:250px;
+    color: aliceblue;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color:gray ;
+}
+li{
+    float: left;
+    border-right: 1px solid white;
+}
