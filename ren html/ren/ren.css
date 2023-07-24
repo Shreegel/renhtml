@@ -42,7 +42,6 @@ img{
     border: 3px solid green;
     text-align: center;
     padding: 10px;
-
     background-image:url("https://wallpapercg.com/media/ts_orig/12093.webp");
 }
 */
@@ -56,7 +55,6 @@ img{
     background-color:lightgoldenrodyellow ;
     height: auto;
     padding-bottom: 30px;
-
 }
 .imgContainer{
     width: auto;
@@ -65,7 +63,6 @@ img{
     background-repeat: no-repeat;
     text-align: center;
     color: white;
-   
 }
 .heading{
     padding-top: 100px;
@@ -75,11 +72,72 @@ img{
 ul{
     list-style-type: none;
     margin: 0;
-    padding: 10px;
     overflow: hidden;
     background-color:gray ;
 }
 li{
     float: left;
     border-right: 1px solid white;
+}
+li a{
+    display: black;
+    float: left;
+    border-right: 1px solid wheat;
+    color: white;
+    text-align: center;
+    padding:14px 16px ;
+    text-decoration: none;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+li a:hover{
+    background-color: teal;
+}
+.active{
+    background-color: cadetblue;
+}
+div.gallery{
+    margin-top: 10px;
+    border: 1px solid gray;
+}
+div.gallery img{
+    width:100%;
+    max-height:200px;
+}
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+.responsive{
+    padding: 0 6px;
+    float: left;
+    width: 48%;
+}
+@media only screen and (max-width:800px){
+    .responsive{
+        width:30%;
+    }
+}
+li a{
+    display: black;
+    float: none;
+    border-bottom: 1px solid wheat;
+    color: white;
+    text-align: center;
+    padding:14px 16px ;
+    text-decoration: none;
+}
+.headingTwoStyle{
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    font-size: 16px;
+    color: white;
+}
+.clearfix{
+    clear:both;
 }
